@@ -4,13 +4,13 @@ This is a simple APT POC program written in C programming for red team activitie
 2- Payload encryption</br>
 3- Key-logging</br>
 4- In-memory Powershell execution</br> 
-5- Persistence 
+5- Persistence</br> 
 and much more</br>
 
-<B>Requirements</B>
+<B>Requirements</B></br>
 
-1- Build Tools for Visual Studio 2019 https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
-2- Python 2.7  https://www.python.org/download/releases/2.7/
+1- Build Tools for Visual Studio 2019 https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019</br>
+2- Python 2.7  https://www.python.org/download/releases/2.7/</br>
 
 <B>Progam building steps</B></br>
 
@@ -21,7 +21,7 @@ and much more</br>
 5- Execute  decrypt.py prog.exe</br>
 6- Copy the payload and modify the variable exe_payload in Dropper.cpp</br>
 7- Execute compile.bat again , the resulting file is Dropper.exe</br>
-TO DO</br>
+<B>TO DO</B></br>
 1- Add C2C support</br> 
 2- Dynamic in-memory encrypted payload/binary files execution from the C2C</br>
 
