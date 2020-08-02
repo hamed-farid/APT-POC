@@ -1,4 +1,5 @@
 # APT-POC
+
 This is a simple APT POC program written in C programming for red team activities , this program collects all the keystrokes and record them one file per application window and sends mail with these data at random time. All payloads are totally encrypted, it bypassed most of antivirus vendors at the time of writing . the program has the following features </br></br>
 1- simple anti sand boxing and anti-debugging techniques</br>
 2- Payload encryption</br>
@@ -21,7 +22,9 @@ and much more</br>
 5- Execute  decrypt.py prog.exe</br>
 6- Copy the payload and modify the variable exe_payload in Dropper.cpp</br>
 7- Execute compile.bat again , the resulting file is Dropper.exe</br>
+
 <B>TO DO</B></br>
+
 1- Add C2C support</br> 
 2- Dynamic in-memory encrypted payload/binary files execution from the C2C</br>
 
