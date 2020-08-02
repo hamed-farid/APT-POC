@@ -1,12 +1,13 @@
 # APT-POC
 
-This is a simple APT POC program written in C programming for red team activities , this program records all the keystrokes and record them one file per application window. the program picks a random time to send mail with these data . All payloads are totally encrypted, it bypassed most of antivirus vendors at the time of writing . the program has the following features </br></br>
+This is a simple APT POC program written in C programming for red team activities , this program records all the keystrokes and record them one file per application window. the program picks a random time to send mail with these data . All payloads are totally encrypted.This program isn't detected by most of antivirus vendors at the time of writing .<i>this program is for educational purpose only and the author is not liable for any kind misuse</i>.The program has the following features </br></br>
 1- Simple anti sand boxing and anti-debugging techniques</br>
 2- Payload encryption</br>
 3- Key-logging</br>
 4- In-memory Powershell execution</br> 
-5- Persistence</br> 
-and much more</br>
+5- Persistence</br>
+6- Hide TaskManager(needs Administrative privileges) and Process Hacker
+And much more</br>
 
 <B>Requirements</B></br>
 
