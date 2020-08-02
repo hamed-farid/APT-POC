@@ -26,7 +26,7 @@ And much more</br>
 
 <B>TO DO</B></br>
 
-1- Add C2C support</br> 
-2- Dynamic in-memory encrypted payload/binary files execution from the C2C</br>
+1- Add C2 support</br> 
+2- Dynamic in-memory encrypted payload/binary files execution from the C2 server</br>
 
 
