@@ -1,6 +1,6 @@
 # APT-POC
 
-This is a simple APT POC program written in C programming for red team activities , this program collects all the keystrokes and record them one file per application window and sends mail with these data at random time. All payloads are totally encrypted, it bypassed most of antivirus vendors at the time of writing . the program has the following features </br></br>
+This is a simple APT POC program written in C programming for red team activities , this program records all the keystrokes and record them one file per application window. the program picks a random time to send mail with these data . All payloads are totally encrypted, it bypassed most of antivirus vendors at the time of writing . the program has the following features </br></br>
 1- simple anti sand boxing and anti-debugging techniques</br>
 2- Payload encryption</br>
 3- Key-logging</br>
@@ -15,9 +15,9 @@ and much more</br>
 
 <B>Progam building steps</B></br>
 
-1- Modify mail.ps1 with sender email credentials and to mail(If Gmail will be used as sender turn on Less secure app access setting)</br>
+1- Modify mail.ps1 with sender email credentials and TO email(If Gmail will be used as sender turn on Less secure app access setting)</br>
 2- Excute encodemail.ps1</br>
-3 - Modify the variable ps_payload in prog.cpp with the encoded Powershell payload from the last step</br>
+3- Modify the variable ps_payload in prog.cpp with the encoded Powershell payload from the last step</br>
 4- Execute compile.bat</br> 
 5- Execute  decrypt.py prog.exe</br>
 6- Copy the payload and modify the variable exe_payload in Dropper.cpp</br>
