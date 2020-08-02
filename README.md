@@ -6,7 +6,7 @@ This is a simple APT POC program written in C programming for red team activitie
 3- Key-logging</br>
 4- In-memory Powershell execution</br> 
 5- Persistence</br>
-6- Hide TaskManager(needs Administrative privileges) and Process Hacker
+6- Hide TaskManager(needs Administrative privileges) and Process Hacker</br>
 And much more</br>
 
 <B>Requirements</B></br>
