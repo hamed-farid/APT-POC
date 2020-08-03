@@ -14,7 +14,7 @@ And much more</br>
 1- Build Tools for Visual Studio 2019 https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019</br>
 2- Python 2.7  https://www.python.org/download/releases/2.7/</br>
 
-<B>Progam building steps</B></br>
+<B>Program building steps</B></br>
 
 1- Modify mail.ps1 with sender email credentials and TO email(If Gmail will be used as sender turn on Less secure app access setting)</br>
 2- Excute encodemail.ps1</br>
